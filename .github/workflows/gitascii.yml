@@ -2,6 +2,8 @@ name: Update GitAscii
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '15 4 * * *'
 
 permissions:
   contents: write
@@ -19,4 +21,3 @@ jobs:
         uses: Igorcbraz/GitAscii/action@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          
