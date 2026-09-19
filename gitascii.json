@@ -1,4 +1,5 @@
 {
+  "username": "frr3h",
   "widgets": [
     {
       "widgetId": "header",
@@ -11522,7 +11523,7 @@
         "animationType": "typewriter",
         "animationPreviewKey": 1,
         "animationDuration": 2000,
-        "accentColor": "#ff00ff"
+        "accentColor": "#e67ed3"
       },
       "locked": false,
       "visible": true,
@@ -11569,10 +11570,11 @@
         "accentColor": "#e67ed3",
         "animationType": "slide-right",
         "animationPreviewKey": 7,
-        "animationDuration": 2000,
+        "animationDuration": 1500,
         "animationDelay": 800,
         "backgroundColor": "#060606",
-        "textColor": "#ff00ff"
+        "textColor": "#ff00ff",
+        "langsLayout": "bars"
       },
       "locked": false,
       "visible": true,
@@ -11631,5 +11633,10 @@
     "themeMode": "dark",
     "templateStyle": "native"
   },
-  "templateId": "terminal"
+  "templateId": "terminal",
+  "profileSlug": "default",
+  "metadata": {
+    "revision": "rev_1789853041474_ip8cp",
+    "updatedAt": "2026-09-19T21:24:04.462Z"
+  }
 }
